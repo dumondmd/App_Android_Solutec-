@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/ScrollViewHome"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewUnidadeConsumidora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/unidade_consumidora" />
+
+            <EditText
+                android:id="@+id/editUnidadeConsumidora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textViewCpfCnpj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cpf_cnpj" />
+
+            <EditText
+                android:id="@+id/editTextCpfCnpj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textLeituraAtual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leitura_atual" />
+
+            <EditText
+                android:id="@+id/editTextLeituraAtual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textAtividade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/atividade" />
+
+            <EditText
+                android:id="@+id/editTextAtividade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textViewClasseTipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/classe_tipo" />
+
+            <EditText
+                android:id="@+id/editTextClasseTipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textViewDemanda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/demanda" />
+
+            <EditText
+                android:id="@+id/editTextDemanda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textViewUFERFP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ufer_fp" />
+
+            <EditText
+                android:id="@+id/editTextUFERFP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textViewUFERP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ufer_p" />
+
+            <EditText
+                android:id="@+id/editTextUFERP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="false" />
+
+            <TextView
+                android:id="@+id/textViewUFERHR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ufer_hr" />
+
+            <EditText
+                android:id="@+id/editTextUFERHR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textViewDMCR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dmcr" />
+
+            <EditText
+                android:id="@+id/editTextDMCR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textViewDemandaUltrapassagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/demanda_de_ultrapassagem" />
+
+            <EditText
+                android:id="@+id/editTextDemandaUltrapassagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@android:string/ok" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

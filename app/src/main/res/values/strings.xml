@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Solutec</string>
+    <string name="title_home">Início</string>
+    <string name="title_dashboard">Média</string>
+    <string name="title_notifications">Notificações</string>
+    <string name="upload_boleto_pdf">Upload Boleto PDF</string>
+    <string name="unidade_consumidora">Unidade Consumidora</string>
+    <string name="cpf_cnpj">CPF/CNPJ</string>
+    <string name="leitura_atual">Leitura Atual</string>
+    <string name="atividade">Atividade</string>
+    <string name="classe_tipo">Classe Tipo</string>
+    <string name="demanda">Demanda</string>
+    <string name="ufer_fp">UFER FP</string>
+    <string name="ufer_p">UFER P</string>
+    <string name="ufer_hr">UFER HR</string>
+    <string name="dmcr">DMCR</string>
+    <string name="demanda_de_ultrapassagem">Demanda de Ultrapassagem</string>
+</resources>
